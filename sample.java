@@ -9,16 +9,16 @@ public class sample {
         count=0;
     }
 
-    public add(int data)
+    public void add(int data)
     {
-     if(capacity==size){
+     if(count==size){
          addcapacity();
      }
      array[count]=data;
      count++;
 
     }
-    public addcapacity()
+    public void addcapacity()
     {
 
     }
