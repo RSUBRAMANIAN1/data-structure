@@ -45,3 +45,11 @@ if __name__ == "__main__":
     #
     llist.insertafternode("hey")
     llist.printnode()
+    sn=input()
+    sn.upper()
+# from collections import defaultdict
+# f=defaultdict()
+# f['banana']=1
+# f['apple']=31
+# for k,v in f.items():
+#     print(k,v)
