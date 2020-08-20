@@ -1,0 +1,32 @@
+
+Dynamic programming:
+
+recursion
+
+memoize(store)
+
+bottom-up
+
+eg:
+
+1) recursion
+def fibbo(n):
+    if(n==1 or n==2):
+	return 1
+	
+    else:
+	result= fibbo(n-1)+fibbo(n-2)
+    
+    return result
+
+2)memoize
+
+def fibbo(n,m):
+    if(m[n]!=None):
+       return m[n]
+    if i==1 or i==2:
+       return 1
+    else:
+       result= fibbo(n-1,m)+ fibbo(n-2,m)
+       m[n] = result
+       

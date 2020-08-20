@@ -1,0 +1,20 @@
+Tip:
+make sure to use paranthesis in intermediate steps
+
+order of operation:
+1) paranthesis
+2) exponents (right to left)
+3) X and / (left to right)
+4) + and - (left to right)
+
+Postfix
+
+* operator operand operand
+
+Infix
+
+* operand operator operand
+
+Prefix
+
+* operand operand operator
